@@ -1,0 +1,44 @@
+# Core RL Environment
+gymnasium[box2d]==0.29.1
+
+# RL Algorithms Framework
+stable-baselines3[extra]==2.2.1
+
+# Deep Learning Backend
+torch==2.1.0
+
+# Numerical Computing
+numpy==1.24.3
+
+# Visualization
+matplotlib==3.8.0
+seaborn==0.13.0
+
+# Training Monitoring
+tensorboard==2.15.0
+tensorboard-data-server==0.7.2
+
+# Video Recording
+moviepy==1.0.3
+imageio[ffmpeg]==2.31.1
+opencv-python==4.8.1.78
+
+# Progress Bars
+tqdm==4.66.1
+
+# Data Processing
+pandas==2.0.3
+
+# System utilities
+psutil==5.9.6
+cloudpickle==3.0.0
+
+# Optional: Jupyter for analysis
+jupyter==1.0.0
+ipykernel==6.26.0
+
+# Optional: Better plots
+plotly==5.18.0
+
+# Build dependencies (for gymnasium[box2d])
+swig==4.1.1
